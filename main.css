@@ -1,0 +1,240 @@
+/* portfolio css */
+
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Roboto';
+    vertical-align: baseline;
+    font-size: 10pt;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* header */
+
+.home_header {
+    width: 100%;
+    height: 8.2em;
+    background: #06a3c8;
+}
+
+
+
+header img {
+    height: 6.5em;
+    margin: 1.2em;
+}
+
+header h4 {
+    font-family: 'Bungee';
+    font-size: 1.2em;
+    display: inline-block;
+    
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    width: 60%;
+    float: right;
+    margin-top: 4.1em;
+    margin-right: 2.5em;
+}
+
+
+/*Dividersx*/
+
+.divide {
+    width: 90%;
+    height: 2px;
+    background: #06a3c8;
+    margin: 4em auto;
+}
+
+
+/*DO COLORBOX 4*/
+
+.work {
+    margin: 0 8em;
+    width: 85%;
+}
+
+.work_cover_img {
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 4em;
+    
+}
+
+.title {
+    font-family: 'Bungee';
+}
+
+.content {
+    font-family: 'Roboto';
+    width: 600px;
+    text-align: center;
+    margin: -3.5em 2em 2em 2em;
+}
+
+.content img {
+    width: 600px;
+    margin-top: 2em;
+}
+
+.pop_header {
+    width: 100%;
+    height: 8em;
+    padding-top: 1em;
+}
+
+.content p {
+    margin: 2em;
+}
+
+.content p a {
+    text-decoration: none;
+    color: #06a3c8;
+}
+
+
+/*ABOUT*/
+
+.about img {
+    width: 30%;
+    border-radius: 50%;
+    max-height: 250px;
+    max-width: 250px;
+    margin: 0 0 0 10em;
+}
+
+.aboutme {
+    width: 45%;
+    float: right;
+    margin-right: 10em;
+}
+
+.aboutme h4 {
+    font-family: 'Bungee';
+    font-size: 2em;
+    
+}
+
+.aboutme p {
+    line-height: 1.2em;
+    margin-top: 1em;
+    line-height: 1.5em;
+}
+
+
+/*Resume*/
+
+.resume h4 {
+    font-family: 'Bungee';
+    font-size: 1.1em;
+    padding: 34px 0;
+}
+
+.resume {
+    background: #06a3c8;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+}
+
+.resume h4 {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*Contact*/
+
+.contact h4 {
+    font-family: 'Bungee';
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.contact p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.2em;
+}
+
+.social {
+    width: 3.2em;
+    margin: 1.2em;
+}
+
+.icons {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    width: 25%;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

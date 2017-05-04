@@ -1,0 +1,93 @@
+/*Media Queries*/
+
+@media screen and (max-width: 866px) {
+    #main_nav {
+        display: none;
+    }
+    
+    header img {
+        margin: 0 auto;
+        width: auto;
+    }
+    
+    .aboutme {
+        float: none;
+        margin-right: 0;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    
+    .about {
+        align-content: center;
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+    
+    .about img {
+        margin: 0 auto;
+    }
+    
+    .icons {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 955px) {
+    .aboutme {
+        float: none;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+    
+    .about {
+        align-content: center;
+        margin: 0 auto;
+        justify-content: center;
+        
+    }
+    
+    .about img {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
